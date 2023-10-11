@@ -1,0 +1,42 @@
+* {
+  background-color: #d9a460;
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.relleno {
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card img {
+  width: 450px;
+  height: 450px;
+}
+.pizzas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.pizzas h2 {
+  font-size: 35px;
+}
+.pizzas button {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
